@@ -1,0 +1,6 @@
+-- create sequence userorder_sequence start with 1 increment by 1;
+--insert into users_model(id) values (nextval('userorder_sequence'));
+-- insert into users_model (id, username, nome, password,created_at)values (RANDOM_UUID(), 'Iris', 'is', '1010', CURRENT_TIMESTAMP());
+-- insert into users_model (id, username, nome, password,created_at)values (RANDOM_UUID(), 'Rafael', 'RG', '1010', CURRENT_TIMESTAMP());
+-- insert into users_model (id, username, nome, password,created_at)values (RANDOM_UUID(), 'Paulo', 'is', '1010', CURRENT_TIMESTAMP());
+-- insert into users_model (id, username, nome, password,created_at)values (RANDOM_UUID(), 'Emanuele', 'is', '1010', CURRENT_TIMESTAMP());
