@@ -1,13 +1,11 @@
 package com.rafa.todolist.modals.user;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.UUID;
-
 import jakarta.persistence.*;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
-import lombok.*;
+import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Data
 @Getter
@@ -29,6 +27,5 @@ public class UserModel {
     @CreationTimestamp // cria a data e hora automaticamente
     @Column(name = "created_at")
     private LocalDateTime createdAt;
-
 
 }
