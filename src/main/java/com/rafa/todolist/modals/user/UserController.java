@@ -33,13 +33,13 @@ public class UserController {
         return ResponseEntity.status(HttpStatus.CREATED).body(userCreated);
     }
 
-    @GetMapping
+    @GetMapping()
     public List<UserModel> findAll() {
         List<UserModel> users = userRepository.findAll();
         return users;
     }
 
-    @DeleteMapping
+    @DeleteMapping()
     public void deleteAll() {
         userRepository.deleteAll();
     }
