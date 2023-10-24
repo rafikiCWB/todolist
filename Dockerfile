@@ -1,4 +1,3 @@
-LABEL authors="rafaelgrando"
 FROM ubuntu:latest AS build
 
 RUN apt-get update
